@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 4px;
+}
+header {
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    border: solid 3px #fff ;
+    border-radius: 30px;
+    height: 34px;
+    
+}
+
+
+body{
+    background-image:url(headphone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+    color: hsl(0, 100%, 90%);
+    margin-right: 100px;
+    transition-property: all;
+    transition-duration: 0.5s; /* Adjusted the duration for better user experience */
+}
+
+a:hover {
+    color:green;
+    border: groove 2px #fff;
+    border-radius: 30px;
+}
+
+button{
+    background-color: black;
+    color:rgb(148, 142, 142);
+    border-radius: 10px;
+    
+
+}
+button:hover{
+    color:black;
+    background-color: white;
+}
+.content{
+    padding: 10% 0% 0% 20%;
+    position: relative;
+    color:#fff;
+    text-align: end;
+}
+input{
+    border-radius: 20px;
+}
+.icons{
+    color:#fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction:column;
+    background-color: green;
+    width: 35%;
+    border-radius: 20px;
+}
+h1:hover{
+    color:green;
+}
